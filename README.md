@@ -9,6 +9,10 @@ This is a Streamlit application that allows users to upload CSV files, perform s
 - Conversational Interface: Interact with your CSV data using a chat-like interface.
 
 ## Installation
+ - Download the Official Llama Model
+```
+https://llama.meta.com/llama-downloads/
+```
  - Clone the Repository
 ```
 git clone https://github.com/yourusername/ChatwithCSV_LLM.git
@@ -40,9 +44,11 @@ streamlit run app.py
 ```
 streamlit-csv-analyzer/
 │
-├── app.py               # Main application script
+├── app.py              # Main application script
 ├── requirements.txt     # List of dependencies
+├── llama-2-7b-chat.ggmlv3.q8_0.bin # Llama Model 
 └── README.md            # Project documentation (this file)
+
 ```
 
 ## Dependencies
